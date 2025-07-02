@@ -1,0 +1,19 @@
+         
+            HELP FOR BACKEND
+----------------------------------------
+
+1. Create the package using -->   npm init   
+ and fill the details
+
+2.For adding the dependencies section use ->
+  npm i {package_name} --save
+
+3. For this project the packages we needed were->
+    moongose           ->   npm install mongoose
+    expresss           ->   npm install express
+    cors               ->   npm install cors
+    bycript            ->   npm install bcrypt
+    express validator  ->   npm install express-validator
+    jsonwebtoken       ->   npm install jsonwebtoken
+
+3. Baki ChatGPT aur Google to Hai hi  <' '> ! 

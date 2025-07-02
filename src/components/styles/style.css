@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width:100vw;
+}
+
+.wrapper p {
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
+.form {
+  padding: 1.5rem;
+  max-width: 100%;
+  flex-basis: 100vw;
+  background: rgba(239, 234, 234, 0);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.form .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.or {
+  margin: 1rem 0;
+}
+
+.form label {
+  display: block;
+  margin: 1.25rem 0 1rem 0;
+}
+
+.form input {
+  height: 40px;
+  width: 100%;
+  padding: 15px;
+  background-color: #f1f9ff;
+  border: 2px solid #bce0fd;
+  border-radius: 8px;
+}
+
+.form button {
+  height: 40px;
+  width: 100%;
+  background-color: #258de6;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  border-radius: 8px;
+}
+
+@media (min-width: 542px) {
+  .form {
+    flex-basis: auto;
+  }
+  .form input {
+    width: 250px;
+  }
+}
+button:hover {
+  filter: brightness(80%);
+}
+button:active {
+  transform: scale(0.98);
+}
